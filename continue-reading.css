@@ -1,0 +1,219 @@
+body{
+    margin: 0%;
+    color: rgb(97, 96, 96);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+button:hover{
+    background-color: rgb(240, 136, 136);
+    outline: none;
+        
+    }
+button{
+    box-shadow: 2px 2px rgb(192, 192, 192);
+}
+.head-post{
+    font-weight:bold;margin-top: 60px;
+}
+.head-post:hover{
+    color: rgb(241, 71, 71);
+}
+.head-post-para{
+    line-height: 1.5;margin-top: 30px;
+}
+.head-sec-post{
+    line-height: 1.6; text-align: justify;word-spacing: 1px;
+}
+.img{
+    margin-top:5px;width: 170px;height: 170px;float: left;
+    margin-bottom: 25px;margin-right: 25px; 
+    border: 5px solid rgb(235, 231, 231);
+}
+.top{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    /* height: 500px; */
+    
+}
+.home-text{
+    text-align: center;
+    letter-spacing: 8px; 
+    font-size: 50px;
+    color: rgb(241, 71, 71);
+    text-shadow: 2px 3px rgb(202, 202, 202);
+    font-family:'Courier New', Courier, monospace;
+}
+.head-top{
+    letter-spacing: 3px;line-height: 1.8;font-weight:normal
+}
+.bottom{
+    margin-left: 5%;
+    margin-right: 5%;
+    /* margin-top: 10%; */
+    /* height: 500px; */
+    
+}
+.container{
+    height:2140px;
+    /* border:1px solid chartreuse; */
+}
+.image{
+    width:780px;height: 300px;border:5px solid rgb(235, 231, 231);margin-top: 15px;
+}
+.sub-head{
+    margin-top: 5%;letter-spacing: 1px;font-weight: bolder;color: rgb(70, 70, 70);
+}
+.first-para{
+    line-height: 1.7;text-align: justify;
+}
+.second-para{
+    line-height: 1.7;text-align: justify;margin-top: 30px;
+}
+.sec-para-head{
+    margin-top: 40px;letter-spacing: 1px;font-weight:bolder;
+}
+.left{
+    width: 65%;
+    float: left;
+    margin-top: 5%;
+}
+.right{
+    width: 30%;
+    float: left;
+    margin-left: 50px;
+}
+.first-ele{
+    margin-top: 25%;
+    text-align: justify;
+}
+.sec-ele,.third-ele{
+    margin-top: 10% ;
+    text-align: justify;
+}
+.date-button{
+    background-color:rgb(99, 97, 97);
+    border: none;
+    height:25px;
+    width: 78px;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 3px;
+    box-shadow: 2px 2px rgb(192, 192, 192);
+}
+.bottom-fir-ele{
+    margin-top: 5%;
+}
+.learn-more{
+    height: 40px;
+    width: 150px;
+    margin-top: 8%;
+    background-color: rgb(240, 84, 84);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 2px;
+    outline: none;
+}
+.learn-more-btn{
+    height: 40px;
+    width: 150px;
+    margin-top: 8%;
+    background-color: rgb(241, 71, 71);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 2px;
+    outline: none;
+}
+
+/* footer */
+.footer-div{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+    border-bottom: 1px solid rgb(99, 98, 98);
+    height: 470px;
+}
+.left-footer{
+    width: 50%;
+    float: left;
+    
+    margin-top: 25px;
+}
+.right-footer{
+    width: 47%;
+    margin-top: 10px;
+    float: left;
+   margin-left: 20px;
+
+}
+.send-btn{
+    width: 35%;
+    height: 40px;
+    background-color: rgb(241, 71, 71);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+.da{
+    color: white;     
+    background-color: rgb(99, 97, 97);
+    height: 22px;
+    width: 27px;
+    border-radius:50%;
+    padding-top: 5px;
+    text-align: center;
+  margin-right: 15px;
+    box-shadow: 2px 3px rgb(192, 192, 192);
+}
+.left-icon{
+    width: 35%;
+    float: left;
+    padding-top: 5px;
+
+}
+.right-icon {
+    width: 50%;
+    float: left;
+    padding-top: 5px;
+    margin-left: 80px;
+    
+}
+.right-icon p{
+    margin-left: 90px;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.left-icon p{
+    font-size: 15px;
+}
+.name-text{
+    height: 35px;width:270px;
+    border-color:rgb(235, 235, 235);
+    background-color: rgb(245, 244, 244);
+    border-style: inset;
+}
+
+.input{
+    height: 35px;width: 270px; margin-left: 20px; outline-color: rgb(148, 147, 147); border-style: inset;
+     border-color: rgb(235, 235, 235); background-color: rgb(245, 244, 244);
+}
+.message{
+    height: 190px;width: 570px;margin-top:5%;outline-color: rgb(148, 147, 147);
+    border-style: inset;border-color:rgb(235, 235, 235);
+    background-color: rgb(245, 244, 244);
+}
+.name-text:focus,.input:focus,.message:focus{
+    background-color: white;
+    border: 3px solid rgb(148, 147, 147);
+    outline: none;
+}
