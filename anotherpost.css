@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(97, 96, 96);
+}
+.heading{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.heading .head{
+    letter-spacing:0.7rem;
+    font-size: 2.6rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 10rem;
+    color: #ff4d4d;
+    text-shadow: 2px 2px #e6e6e6;
+    font-weight: bold;
+    line-height: 3.5rem;
+    cursor: pointer;
+    word-spacing: -20px;
+}
+.heading .line{
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 0.8rem;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+.blog .blogpara{
+    font-size: 1.8rem;
+    letter-spacing:3px ;
+    margin-top: 4rem;
+    text-align: center;
+}
+.blog .blogimg{
+    width: 99%;
+    height: 390px;
+    border: 6px solid #d9d9d9;
+    margin-top: 3rem;
+}
+.paragraph .para{
+    font-size: 18px;
+    margin-top: 3rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.paragraph .para1{
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 1.8rem;
+}
+.accum .accpara{
+    font-size: 18px;
+    margin-top: 3rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.accum .accpara1{
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 1.8rem;
+}
+.lig .ligpara{
+    font-size: 18px;
+    margin-top: 3rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.lig .ligpara1{
+    font-size: 15px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 1.8rem;
+}
+.footer{
+    background-color: #e6e6e6;
+    height: 640px;
+    margin-top: 4rem;
+    border-top: 1px solid #cccccc;
+}
+.foot .ques{
+    font-size: 1.6rem; 
+    letter-spacing: 2.5px;
+    text-align: center;
+    padding-top: 4rem;
+}
+.left {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 360px;
+    margin-top: 2rem;
+  }
+.right{
+    float: right;
+    width: 47%;
+    height: 380px;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+  .row2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .left .first{
+    width: 40%;
+    margin-left: 10%;
+    height: 45px;
+    margin-top: 1%;
+    background-color: #f2f2f2;
+    border: none;
+    border-top: 2px solid #cccccc;
+    border-left:2px solid #cccccc ;
+    color: gray;
+    opacity: 0.8;
+    outline: none;
+    border-radius: 4px;
+  }
+.left .first:focus{
+    background-color: #ffffff;
+    border: 3px solid grey;
+}
+  .left .second{
+    width: 40%;
+    margin-left: 3%;
+    height: 45px;
+    background-color:#f2f2f2;
+    border: none;
+    border-top: 2px solid #cccccc;
+    border-left:2px solid #cccccc ;
+    color:gray;
+    opacity: 0.8;
+    outline: none;
+    border-radius: 4px;
+  }
+  .left .second:focus{
+    background-color: #ffffff;
+    border: 3px solid grey;
+}
+  .left input::placeholder{
+    padding-left: 5px;
+    font-size: 14px;
+    color: #333333;
+}
+.left textarea::placeholder{
+    padding-left: 5px;
+    font-size: 14px;
+    padding-top: 6px;
+    color: #333333;
+}
+input{
+    text-indent: 8px;
+}
+ textarea{
+    height: 45%;
+    width: 83%;
+    margin-left:10% ;
+    margin-top: 3.5%;
+    background-color:#f2f2f2;
+    opacity: 0.8;
+    outline: none;
+    border: none;
+    border-top: 2px solid #cccccc;
+    border-left:2px solid #cccccc ;
+    border-radius: 4px;
+    text-indent: 10px;
+}
+textarea:focus{
+    background-color: #ffffff;
+    border: 3px solid grey;
+}
+.left .sendbtn{
+    width: 30%;
+    height: 45px;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    box-shadow: 2px 2px #bfbfbf;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+.left .sendbtn:hover{
+    background-color: #ff6666;
+}
+.right .footpara{
+    font-size: 15px;
+    letter-spacing: 0;
+    text-align: justify;
+    margin-right: 3rem;
+    line-height: 1.8;
+    margin-top: 1.4rem;
+}
+.right .leftcol{
+    float: left;
+    width: 35%;
+    padding: 10px;
+    height: 240px;
+    margin-top: 2rem;
+    position: relative;
+}
+.right .rightcol{
+    float: right;
+    width: 47%;
+    height: 260px;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+.leftcol .icon{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.icon .circle-icon{
+    background:#595959 ;
+    color: white;
+    padding:7px;
+    height: 18px;
+    width: 23px;
+    border-radius:50%;
+    text-align: center;
+    margin-right: 8%;
+    box-shadow: 2px 2px #cccccc;
+}
+.icon .addr{
+    vertical-align:middle;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.icon .call-icon{
+    background:#595959 ;
+    color: white;
+    padding:7px;
+    height: 18px;
+    width: 18px;
+    border-radius:50%;
+    text-align: center;
+    margin-right: 8%;
+    box-shadow: 2px 2px #cccccc;
+}
+.icon .mail-icon{
+    background:#595959 ;
+    color: white;
+    padding:7px;
+    height: 18px;
+    width: 18px;
+    border-radius:50%;
+    text-align: center;
+    margin-right: 8%;
+    box-shadow: 2px 2px #cccccc;
+}
+.icon .twit-icon{
+    background:#595959 ;
+    color: white;
+    padding:7px;
+    height: 18px;
+    width: 18px;
+    border-radius:50%;
+    text-align: center;
+    margin-right: 8%;
+    box-shadow: 2px 2px #cccccc;
+}
+.icon .insta-icon{
+    background:#595959 ;
+    color: white;
+    padding:7px;
+    height: 18px;
+    width: 18px;
+    border-radius:50%;
+    text-align: center;
+    margin-right: 8%;
+    box-shadow: 2px 2px #cccccc;
+}
+.icon .drib-icon{
+    background:#595959 ;
+    color: white;
+    padding:7px;
+    height: 18px;
+    width: 18px;
+    border-radius:50%;
+    text-align: center;
+    margin-right: 8%;
+    box-shadow: 2px 2px #cccccc;
+}
+.icon .fb-icon{
+    background:#595959 ;
+    color: white;
+    padding:7px;
+    height: 18px;
+    width: 18px;
+    border-radius:50%;
+    text-align: center;
+    margin-right: 8%;
+    box-shadow: 2px 2px #cccccc;
+}
+.rightcol .icon{
+    display: flex;
+    margin-bottom: 2rem;
+}
+.footer .underline{
+    margin-top: 2rem;
+    width: 90%;
+    margin-left: 4.5rem;
+    color: lightgrey;
+}
